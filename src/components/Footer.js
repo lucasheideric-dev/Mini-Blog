@@ -9,7 +9,7 @@ const Footer = () => {
       <p>Mini Blog &copy; {currentYear}</p>
       <p>Desenvolvido por: Lucas Heideric</p>
     </footer>
-  );
+  ); 
 };
 
 export default Footer;
