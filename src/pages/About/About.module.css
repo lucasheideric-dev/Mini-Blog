@@ -1,0 +1,44 @@
+.about {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.about h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.about h2 span {
+  color: #555555;
+}
+
+.about p {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.2em;
+  max-width: 500px;
+}
+
+.about a {
+  display: inline-block;
+  width: 150px;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #555555;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.about a:hover {
+  background-color: #555555;
+}
